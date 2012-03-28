@@ -1,0 +1,614 @@
+libdei80211mr_la-peerstats.lo: peerstats.cc mac-802_11mr.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/mac.h \
+ /usr/include/assert.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/bi-connector.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/object.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/scheduler.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/config.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/time.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/xlocale.h /usr/include/alloca.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/autoconf.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/tclcl-1.19/tclcl.h \
+ /usr/include/string.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/include/tcl.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/include/tclDecls.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/include/tclPlatDecls.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/otcl-1.13/otcl.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/tclcl-1.19/tclcl-config.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/tclcl-1.19/tracedvar.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/tclcl-1.19/tclcl-mappings.h \
+ /usr/include/strings.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /usr/include/arpa/inet.h /usr/include/netinet/in.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h \
+ /usr/include/sys/socket.h /usr/include/sys/uio.h /usr/include/bits/uio.h \
+ /usr/include/bits/socket.h /usr/include/bits/sockaddr.h \
+ /usr/include/asm/socket.h /usr/include/asm-generic/socket.h \
+ /usr/include/asm/sockios.h /usr/include/asm-generic/sockios.h \
+ /usr/include/bits/in.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/heap.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/packet.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/lib/bsd-list.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/packet-stamp.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mobile/antenna.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/object.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/ns-process.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/ip.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/packet.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/routing/route.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/ll.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/link/delay.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/queue/queue.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/connector.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/arp.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/scheduler.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/classifier/classifier.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/lanRouter.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/varp.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/phy.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/channel.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/node.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/connector.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/phy.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/net-interface.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mobile/energy-model.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/cstdlib \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/c++config.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/os_defines.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/cpu_defines.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/trace/trace.h \
+ /usr/include/math.h /usr/include/bits/huge_val.h \
+ /usr/include/bits/huge_valf.h /usr/include/bits/huge_vall.h \
+ /usr/include/bits/inf.h /usr/include/bits/nan.h \
+ /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+ /usr/include/bits/mathinline.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/trace/basetrace.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/tcp/tcp.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/agent.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/timer-handler.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/apps/app.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/ns-process.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/tools/rng.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/location.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/routing/rtmodule.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/routing/addr-params.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/classifier/classifier-hash.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/classifier/classifier.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/classifier/classifier-hier.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/routing/addr-params.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/parentnode.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/routing/address.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/classifier/classifier-addr.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/mac.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/marshall.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/trace/cmu-trace.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/trace/trace.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mobile/god.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/diffusion/hash_table.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/diffusion/diff_header.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/diffusion/iflist.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/mac-802_11.h \
+ /home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/mac-timers.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/list \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_algobase.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/functexcept.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/exception_defines.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/cpp_type_traits.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ext/type_traits.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ext/numeric_traits.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_pair.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/move.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/concept_check.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_iterator_base_types.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_iterator_base_funcs.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_iterator.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/debug/debug.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/allocator.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/c++allocator.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ext/new_allocator.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/new \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/exception \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/range_access.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_list.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/initializer_list \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/list.tcc \
+ mac-timersmr.h power_profile.h peerstats.h phymodes.h PER.h adt/DLList.h \
+ adt/NSNode.h adt/Position.h adt/Object.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/iostream \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ostream \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ios \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/iosfwd \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stringfwd.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/postypes.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/cwchar \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/char_traits.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/localefwd.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/c++locale.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/clocale \
+ /usr/include/locale.h /usr/include/bits/locale.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/cctype \
+ /usr/include/ctype.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/ios_base.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ext/atomicity.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/gthr.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/timex.h /usr/include/bits/setjmp.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/atomic_word.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/locale_classes.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/string \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/ostream_insert.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/cxxabi_forced.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_function.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/backward/binders.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/basic_string.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/basic_string.tcc \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/locale_classes.tcc \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/streambuf \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/streambuf.tcc \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/basic_ios.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/locale_facets.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/cwctype \
+ /usr/include/wctype.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/ctype_base.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/streambuf_iterator.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/ctype_inline.h \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/locale_facets.tcc \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/basic_ios.tcc \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/ostream.tcc \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/istream \
+ /usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/istream.tcc \
+ Mac80211EventHandler.h
+
+mac-802_11mr.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/mac.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/bi-connector.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/object.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/scheduler.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/config.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/time.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include/stddef.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/bits/waitflags.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/alloca.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/autoconf.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/tclcl-1.19/tclcl.h:
+
+/usr/include/string.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/include/tcl.h:
+
+/usr/include/stdio.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/include/tclDecls.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/include/tclPlatDecls.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/otcl-1.13/otcl.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/tclcl-1.19/tclcl-config.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/tclcl-1.19/tracedvar.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/tclcl-1.19/tclcl-mappings.h:
+
+/usr/include/strings.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/environments.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netinet/in.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/bits/in.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/heap.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/packet.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/lib/bsd-list.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/packet-stamp.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mobile/antenna.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/object.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/ns-process.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/ip.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/packet.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/routing/route.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/ll.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/link/delay.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/queue/queue.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/connector.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/arp.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/scheduler.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/classifier/classifier.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/lanRouter.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/varp.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/phy.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/channel.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/node.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/connector.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/phy.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/net-interface.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mobile/energy-model.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/cstdlib:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/c++config.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/os_defines.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/cpu_defines.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/trace/trace.h:
+
+/usr/include/math.h:
+
+/usr/include/bits/huge_val.h:
+
+/usr/include/bits/huge_valf.h:
+
+/usr/include/bits/huge_vall.h:
+
+/usr/include/bits/inf.h:
+
+/usr/include/bits/nan.h:
+
+/usr/include/bits/mathdef.h:
+
+/usr/include/bits/mathcalls.h:
+
+/usr/include/bits/mathinline.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/trace/basetrace.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/tcp/tcp.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/agent.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/timer-handler.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/apps/app.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/ns-process.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/tools/rng.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/location.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/routing/rtmodule.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/routing/addr-params.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/classifier/classifier-hash.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/classifier/classifier.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/classifier/classifier-hier.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/routing/addr-params.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/common/parentnode.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/routing/address.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/classifier/classifier-addr.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/mac.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/marshall.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/trace/cmu-trace.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/trace/trace.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mobile/god.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/diffusion/hash_table.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/diffusion/diff_header.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/diffusion/iflist.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/mac-802_11.h:
+
+/home/quake0day/aur-ns-allinone/src/ns-allinone-2.34/ns-2.34/mac/mac-timers.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/list:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_algobase.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/functexcept.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/exception_defines.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/cpp_type_traits.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ext/type_traits.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ext/numeric_traits.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_pair.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/move.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/concept_check.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_iterator_base_types.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_iterator_base_funcs.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_iterator.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/debug/debug.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/allocator.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/c++allocator.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ext/new_allocator.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/new:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/exception:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/range_access.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_list.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/initializer_list:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/list.tcc:
+
+mac-timersmr.h:
+
+power_profile.h:
+
+peerstats.h:
+
+phymodes.h:
+
+PER.h:
+
+adt/DLList.h:
+
+adt/NSNode.h:
+
+adt/Position.h:
+
+adt/Object.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/iostream:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ostream:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ios:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/iosfwd:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stringfwd.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/postypes.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/cwchar:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/char_traits.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/localefwd.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/c++locale.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/clocale:
+
+/usr/include/locale.h:
+
+/usr/include/bits/locale.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/cctype:
+
+/usr/include/ctype.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/ios_base.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/ext/atomicity.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/gthr.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/gthr-default.h:
+
+/usr/include/pthread.h:
+
+/usr/include/sched.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/timex.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/atomic_word.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/locale_classes.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/string:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/ostream_insert.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/cxxabi_forced.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/stl_function.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/backward/binders.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/basic_string.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/basic_string.tcc:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/locale_classes.tcc:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/streambuf:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/streambuf.tcc:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/basic_ios.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/locale_facets.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/cwctype:
+
+/usr/include/wctype.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/ctype_base.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/streambuf_iterator.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/x86_64-unknown-linux-gnu/bits/ctype_inline.h:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/locale_facets.tcc:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/basic_ios.tcc:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/ostream.tcc:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/istream:
+
+/usr/lib/gcc/x86_64-unknown-linux-gnu/4.6.3/../../../../include/c++/4.6.3/bits/istream.tcc:
+
+Mac80211EventHandler.h:
