@@ -1,0 +1,10 @@
+For this project, we have chosen to develop an HF network 
+simulation framework based on the public-domain network 
+simulation framework known as Network Simulator 2, or ns-2, 
+an object-oriented discrete event simulator targeted at 
+networking research.  ns-2 is written in C++ and OTcl, where 
+C++ is used to implement code that needs fast execution, such 
+as specific protocol actions, and OTcl is used for less time-
+critical functions and to bind the C++ blocks together.  Entire 
+networks can be modeled by putting together new and 
+existing C++ and OTcl components.   

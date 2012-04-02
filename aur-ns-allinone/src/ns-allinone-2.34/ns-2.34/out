@@ -1,0 +1,75 @@
+ ******GRWAVE  (RELEASE 2 AT 23/10/1985 )********
+ *****COPYRIGHT  (C)   GEC   PLC   1985   *********
+ CCIR Personal Computer Version 1989 Study Group 5 IWP5/1
+ 
+ GRWAVE COMPUTES FIELD STRENGTH-DISTANCE VARIATIONS
+ FOR A HOMOGENEOUS CURVED EARTH WITH EXPONENTIALLY
+ DECREASING REFRACTIVE INDEX
+
+
+                     ATMOSPHERIC CONSTANTS
+                         REFRACTIVITY =315.00  (N-UNITS)
+                         SCALE HEIGHT = 7.350  KM
+
+                     GROUND CONSTANTS
+                         RELATIVE PERMITTIVITY =    30.000
+                         CONDUCTIVITY =1.0000D-02  SIEMENS/METRE
+
+                     VERTICAL POLARISATION
+
+                     MINIMUM DISTANCE =     1.000  KILOMETRES
+                     MAXIMUM DISTANCE =   200.000  KILOMETRES
+                     DSTEP            =     5.000  KILOMETRES
+
+
+                     FREQUENCY =    6.000 MHZ
+
+                     TRANSMITTER HEIGHT =     9.0  METRES
+                     RECIEVER HEIGHT    =     2.5  METRES
+
+                     DISTANCE      FIELD STRENGTH     BASIC TRANSMISSION LOSS
+                        KM            DB(UV/M)               DB           (F) 
+                          1.00         99.09                57.33
+                          6.00         69.32                87.10
+                         11.00         58.36                98.06
+                         16.00         51.59               104.83
+                         21.00         46.65               109.77
+                         26.00         42.74               113.68
+                         31.00         39.48               116.94
+                         33.83         37.84               118.58
+                                                                          (R)
+                         33.83         37.89               118.53
+                         35.00         37.25               119.17
+                         40.00         34.71               121.71
+                         45.00         32.44               123.98
+                         50.00         30.36               126.06
+                         55.00         28.45               127.97
+                         60.00         26.68               129.74
+                         65.00         25.01               131.41
+                         70.00         23.43               132.99
+                         75.00         21.93               134.49
+                         80.00         20.51               135.91
+                         85.00         19.13               137.28
+                         90.00         17.81               138.61
+                         95.00         16.53               139.89
+                        100.00         15.30               141.12
+                        105.00         14.09               142.33
+                        110.00         12.92               143.50
+                        115.00         11.78               144.64
+                        120.00         10.65               145.77
+                        125.00          9.55               146.87
+                        130.00          8.47               147.95
+                        135.00          7.41               149.01
+                        140.00          6.36               150.06
+                        145.00          5.33               151.09
+                        150.00          4.32               152.10
+                        155.00          3.31               153.11
+                        160.00          2.32               154.10
+                        165.00          1.33               155.09
+                        170.00          0.35               156.07
+                        175.00         -0.61               157.03
+                        180.00         -1.57               157.99
+                        185.00         -2.52               158.94
+                        190.00         -3.47               159.89
+                        195.00         -4.41               160.83
+                        200.00         -5.35               161.76
