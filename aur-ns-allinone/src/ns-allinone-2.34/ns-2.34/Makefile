@@ -243,6 +243,7 @@ OBJ_CC = \
 	common/pkt-counter.o \
 	common/Decapsulator.o common/Encapsulator.o \
 	common/encap.o \
+	indep-utils/propagation/threshold.o \
 	mac/channel.o mac/mac.o mac/ll.o mac/mac-802_11.o \
 	mac/mac-802_11Ext.o \
 	mac/mac-802_3.o mac/mac-tdma.o mac/smac.o \

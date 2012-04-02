@@ -1,3 +1,13 @@
+/*=============================================================================
+#     FileName: Shadowing2.h
+#         Desc: 
+#       Author: quake0day
+#        Email: quake0day@gmail.com
+#     HomePage: http://www.darlingtree.com
+#      Version: 0.0.1
+#   LastChange: 2012-04-02 11:17:04
+#      History:
+=============================================================================*/
 #ifndef SHADOWING2_H_
 #define SHADOWING2_H_
 

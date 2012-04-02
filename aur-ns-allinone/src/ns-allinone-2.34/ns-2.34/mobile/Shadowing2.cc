@@ -1,3 +1,13 @@
+/*=============================================================================
+#     FileName: Shadowing2.cc
+#         Desc: 
+#       Author: quake0day
+#        Email: quake0day@gmail.com
+#     HomePage: http://www.darlingtree.com
+#      Version: 0.0.1
+#   LastChange: 2012-04-02 11:16:37
+#      History:
+=============================================================================*/
 /*
  * Lower tail quantile for standard normal distribution function.
  *
@@ -108,11 +118,6 @@ ltqnorm(double p)
 	}
 }
 /*ltqnorm end*/
-
-
-/******************************************************************************
- * @author      Stefan Unterschütz
- */
 
 
 /********* include files *****************************************************/

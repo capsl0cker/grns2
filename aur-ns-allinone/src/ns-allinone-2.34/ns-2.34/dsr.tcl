@@ -1,3 +1,13 @@
+#=============================================================================
+#     FileName: dsr.tcl
+#         Desc: Simulate the GroundWave propagation
+#       Author: quake0day
+#        Email: quake0day@gmail.com
+#     HomePage: http://www.darlingtree.com
+#      Version: 0.0.1
+#   LastChange: 2012-04-02 11:16:14
+#      History:
+#=============================================================================
 # wrls1.tcl
 # A 3-node example for ad-hoc simulation with DSDV
 
@@ -12,23 +22,70 @@ set val(ifq)            CMUPriQueue    ;# interface queue type
 set val(ll)             LL                         ;# link layer type
 set val(ant)            Antenna/OmniAntenna        ;# antenna model
 set val(ifqlen)         50                         ;# max packet in ifq
-set val(nn)             3                          ;# number of mobilenodes
+set val(nn)             2                          ;# number of mobilenodes
 set val(rp)             DSDV                        ;# routing protocol
 set val(x)              500   			   ;# X dimension of topography
 set val(y)              400   			   ;# Y dimension of topography  
 set val(stop)		    150			   ;# time of simulation end
 #set testscript [open testscript.sh r]
 
+# parameters for GRWAVE
+set HTT "HTT 9 \n" ;# Effective height of the transmitter (m)
+set HRR "HRR 2.5\n" ;#Effective height of the Receiver (m)
+set IPOLRN "IPOLRN 1\n" ;# Polarization (1 for vertical and 2 for horizontal)
+set FREQ "FREQ 6\n" ;#Frequency in MHz
+set SIGMA "SIGMA 0.01\n" ;#Condutivity (S/m) of the terrain
+set EPSLON "EPSLON 30\n" ;#Permitivity of the terrain
+set dmin "dmin 1\n" ;#Distance (km) where the field needs to be calculated
+set dmax "dmax 200\n" 
+set dstep "dstep 5\n"
+set GO "GO"
+# create some data
+# pick a filename - if you don't include a path,
+#  it will be saved in the current directory
+ set filename "inp"
+# open the filename for writing
+ set fileId [open $filename "w"]
+# send the data to the file -
+#  failure to add '-nonewline' will result in an extra newline
+# at the end of the file
+puts $fileId \
+${HTT}${HRR}${IPOLRN}${FREQ}${SIGMA}${EPSLON}${dmin}${dmax}${dstep}${GO}
+# close the file, ensuring the data is written out before you continue
+#  with processing.
+close $fileId
+# running grwave and grab the output
+exec gr < $filename > out
+
+# runing script to get the output result
+#set result [exec grabinfo.sh ]
 
 
 # parameters for shadowing2
-Propagation/Shadowing2 set pathlossExp_ 1.5
+# Path loss exponent
+Propagation/Shadowing2 set pathlossExp_ 2.0
+# shadowing deviation
 Propagation/Shadowing2 set std_db_ 3 	
+# reference distance
 Propagation/Shadowing2 set dist0_ 1.0	 
 Propagation/Shadowing2 set validity_ 0.9
 Propagation/Shadowing2 set seed_ 1		
+# rx threshold
 Phy/WirelessPhy set RXThresh_ 3.3e-8 
 Phy/WirelessPhy set CSThresh_ 3.3e-9
+# frequency
+Phy/WirelessPhy set freq_ 914e+6
+Phy/WirelessPhy set Pt_ 0.28183815
+
+# transmit antenna gain
+Antenna/OmniAntenna set Gt_ 1.0
+# receive antenna gain
+Antenna/OmniAntenna set Gr_ 1.0
+# system loss
+Phy/WirelessPhy set L_ 1.0
+
+
+
 
 set ns		  [new Simulator]
 set tracefd       [open simple.tr w]
@@ -71,21 +128,24 @@ create-god $val(nn)
 
 # Provide initial location of mobilenodes
 $node_(0) set X_ 5.0
-$node_(0) set Y_ 5.0
+$node_(0) set Y_ 0.0
 $node_(0) set Z_ 0.0
 
-$node_(1) set X_ 490.0
-$node_(1) set Y_ 285.0
+#$node_(1) set X_ 490.0
+$node_(1) set X_ 50.0
+$node_(1) set Y_ 0.0
+#$node_(1) set Y_ 285.0
 $node_(1) set Z_ 0.0
+#$node_(1) set Z_ 0.0
 
-$node_(2) set X_ 150.0
-$node_(2) set Y_ 240.0
-$node_(2) set Z_ 0.0
+#$node_(2) set X_ 150.0
+#$node_(2) set Y_ 240.0
+#$node_(2) set Z_ 0.0
 
 # Generation of movements
 $ns at 10.0 "$node_(0) setdest 250.0 250.0 3.0"
 $ns at 15.0 "$node_(1) setdest 45.0 285.0 5.0"
-$ns at 110.0 "$node_(0) setdest 480.0 300.0 5.0" 
+#$ns at 110.0 "$node_(0) setdest 480.0 300.0 5.0" 
 
 # Set a TCP connection between node_(0) and node_(1)
 set tcp [new Agent/TCP/Newreno]
@@ -118,6 +178,7 @@ $ns initial_node_pos $node_($i) 30
 for {set i 0} {$i < $val(nn) } { incr i } {
     $ns at $val(stop) "$node_($i) reset";
 }
+
 #set result [exec testscript.sh ]
 #puts $result
 # ending nam and the simulation 
