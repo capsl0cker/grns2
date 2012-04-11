@@ -30,8 +30,8 @@ set val(stop)		    150			   ;# time of simulation end
 #set testscript [open testscript.sh r]
 
 # parameters for GRWAVE
-set HTT "HTT 9 \n" ;# Effective height of the transmitter (m)
-set HRR "HRR 2.5\n" ;#Effective height of the Receiver (m)
+set HTT "HTT 679 \n" ;# Effective height of the transmitter (m)
+set HRR "HRR 1491\n" ;#Effective height of the Receiver (m)
 set IPOLRN "IPOLRN 1\n" ;# Polarization (1 for vertical and 2 for horizontal)
 set FREQ "FREQ 6\n" ;#Frequency in MHz
 set SIGMA "SIGMA 0.01\n" ;#Condutivity (S/m) of the terrain
@@ -63,7 +63,7 @@ exec gr < $filename > out
 
 # parameters for shadowing2
 # Path loss exponent
-Propagation/Shadowing2 set pathlossExp_ 2.0
+Propagation/Shadowing2 set pathlossExp_ [lindex $argv 0]
 # shadowing deviation
 Propagation/Shadowing2 set std_db_ 3 	
 # reference distance
